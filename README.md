@@ -1,12 +1,48 @@
-# React + Vite
+# 🧮 Character Counter App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A minimal and responsive React application that allows users to type text and instantly view the total character count. Useful for text-limited content creation like tweets, descriptions, and more.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+👉 [Character Counter App](https://mahnoorshabbir-character-counter.vercel.app/)
 
-## Expanding the ESLint configuration
+## 🧠 How It Works
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- The app uses a controlled `textarea` input.
+- The `character count` is updated live using `useState`.
+- Styled with Tailwind CSS for responsiveness and clean visuals.
+
+## 📁 Folder Structure
+
+```
+character-counter/
+├── public/
+│   └── vite.svg
+├── src/
+│   ├── components/
+│   │   └── CharacterCounter.jsx
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+├── .gitignore
+├── index.html
+├── package.json
+├── postcss.config.js
+├── README.md
+├── tailwind.config.js
+└── vite.config.js
+```
+
+## 🛠 Tech Stack
+
+- React
+- Vite
+- Tailwind CSS
+- JavaScript
+
+## ✨ Features
+
+- Live character count as you type
+- Clean and responsive UI
+- Fully styled using Tailwind CSS
+- Fast bundling using Vite
